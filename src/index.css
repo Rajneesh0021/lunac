@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #272B30;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: 4px;
+  scrollbar-color: black transparent; /* Black thumb with no track background */
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px; /* Scrollbar width */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; /* No background for the track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black; /* Black color for the scrollbar thumb */
+  border-radius: 10px;
+  border: none; /* Removed the border */
+}
+
+/* Remove scrollbar buttons (up/down arrows) */
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar-button {
+  display: none; /* Hide the up and down arrows */
+}
